@@ -9,6 +9,7 @@ module.exports = merge(common, {
     open: true,
     hot: true,
     port: 9000,
+    historyApiFallback: true,
   },
   module: {
     rules: [

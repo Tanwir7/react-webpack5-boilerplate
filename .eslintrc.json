@@ -20,6 +20,7 @@
         "jsx-a11y"
     ],
     "rules": {
+        "max-len":  ["error",{"code":400}],
         "react/react-in-jsx-scope": "off",
         "require-jsdoc": ["error", {
             "require": {
